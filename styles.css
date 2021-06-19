@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-size: 14px;
+    width: 100vw;
+}
+
+h1 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 2.6rem;
+    font-weight: 400;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+}
+
+h2 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.buttons {
+    background-color: #00F3BB;
+    border: 0px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1.14rem;
+    font-weight: 500;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    height: 48px;
+}
+
+.buttons:hover {
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexRow {
+    flex-flow: row wrap;
+
+}
+
+.flexColumn {
+    flex-flow: column wrap;
+}
+
+.header {
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 19px;
+}
+
+.header .logo {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+#menu {
+    display: none;
+}
+
+.header .navMenuMobile .menu li {
+    margin-bottom: 24px;
+    margin-left: 16px;
+    list-style-type: none;
+}
+
+.header .navMenuMobile .menu a {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1.14rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-decoration: none;  
+}
+
+.header .navMenuMobile .menu a:hover {
+    color: #00F3BB;
+    text-decoration: line-through;
+}
+
+.header .navMenuMobile .menu a:active {
+    color: rgba(6,10,36,0.56);
+    text-decoration: line-through;
+}
+
+.header .navMenuMobile .menu {
+    display: none;
+}
+
+.header .navMenuDescktop {
+    display: none;
+}
+
+#menu:checked ~ .menu{
+    display: block;
+    background-color: #0000EC;
+    padding: 16px 0px 0px;
+    height: 224px;
+    width: 100vw;
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    animation: menuAnimation 0.3s 1;
+}
+
+@keyframes menuAnimation {
+    0% {
+        left: 100%;
+    }
+    25% {
+        left: 75%;
+    }
+    50% {
+        left: 50%;
+    }
+    75% {
+        left: 25%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+.main {
+    height: 4930px;
+}
+
+.main .welcome {
+    height: 303px;
+    padding: 29px 16px 0px 16px;
+}
+
+.main .welcome .titleWelcome {
+    padding-right: 20px;
+}
+
+.main .welcome .titleWelcome span.strikethrough {
+    text-decoration: line-through;
+}
+
+.main .welcome .paragraphWelcome {
+    margin-top: 16px;
+}
+
+.main .welcome .paragraphWelcomeDescktop {
+    display: none;
+}
+
+.main .welcome .buttonWelcome {
+    width: 90%;
+    margin: 36px 0px 24px 0px;
+}
+
+.main .episodes {
+    height: 1203.5px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+}
+
+.main .episodes .titleEpisodes {
+    font-weight: 300;
+    color: #FFFFFF;
+    padding: 64px 0px 15.5px 16px;
+}
+
+.main .episodes .containerEpisodes {
+    height: 955px;
+    margin: 0px 11px;
+    background-color: red;
+}
+
+.main .episodes .containerEpisodes iframe {
+    margin: 5.5px 0px;
+    height: 225px;
+    width: 100%;
+    border: 1px dashed black;
+}
+
+.main .us {
+    height: 850.5px;
+    padding-bottom: 27px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .us .phoneUs {
+    height: 519px;
+    width: 360px;
+    margin-top: -100px;
+    z-index: 1;
+}
+
+.main .us .textUs {
+    height: 346px;
+    width: 288px;
+    margin: 27px 16px;
+}
+
+.main .us .textUs .titleUs {
+    margin-bottom: 8px;
+}
+
+.main .us .textUs .paragraphUs {
+    margin-bottom: 10px;
+}
+
+.main .interviews {
+    height: 1603px;
+}
+
+.main .interviews .titleInterviews {
+    margin-bottom: 14px;
+    margin-left: 16px;
+}
+
+.main .interviews .containerImages {
+    margin-bottom: 48px;
+    width: 100%;
+}
+
+.main .interviews .containerImages .imageInterviews {
+    height: 243px;
+    width: 100%;
+}
+
+.main .topics {
+    height: 970px;
+    padding: 0px 16px 42px 16px;
+}
+
+.main .topics .titleTopics{
+    margin-bottom: 24px;
+}
+
+.main .topics .containerTopics {
+    width: 100vw;
+    justify-content: center;
+}
+
+.main .topics .containerTopics .boxTopics {
+    width: 288px;
+    margin-bottom: 52px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .topics .containerTopics .boxTopics .imagesTopics {
+    margin: 13px 0px;
+    height: 104px;
+    width: 104px;
+}
+
+.main .topics .containerTopics .boxTopics:first-child {
+    margin-bottom: 36px;
+}
+
+.main .topics .containerTopics .boxTopics:nth-child(2)>h2 {
+    height: 64px;
+}
+
+.aside {
+    height: 341px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+    padding: 64px 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside h1.titleAside {
+    color: #FFFFFF;
+    font-weight: 300;
+    text-align: center;
+    width: 288px;
+}
+
+.aside .buttonAside {
+    height: 48px;
+    width: 288px;
+    margin: 36px 16px 3px 16px;
+}
+
+.footer {
+    height: 121px;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 45px;
+}
+
+.footer .paragraphFooter {
+    margin-bottom: 16px;
+}
+
+.footer .containerIcons {
+    height: 28px;
+    width: 227px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .containerIcons .icons {
+    height: 28px;
+    width: 16px;
+}
+
+.footer .containerIcons img.icons2 {
+    height: 28px;
+    width: 16px;
+    display: none;
+}
+
+.footer .containerIcons .icons:hover img.icons {
+    display: none;
+}
+
+.footer .containerIcons .icons:hover > img.icons2 {
+    display: block;
+}

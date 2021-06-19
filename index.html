@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./stylesDescktop.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500;600&family=IBM+Plex+Sans:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+    <title>Podcast Channel Carolina Muñoz</title>
+</head>
+<body class="flex flexColumn">
+    <header class="header flex flexRow">
+        <img class="logo" src="./icons/logo.svg" alt="Logo">
+        <nav class="navMenuMobile">
+            <input  type="checkbox" class="menuMobile" id="menu" class="menuMobile"/>
+                <label for="menu">
+                    <svg class="iconMenu"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="15px"
+                    viewBox="0 0 24.75 24.75"
+                    xml:space="preserve"
+                    fill="black"
+                  >
+                    <g>
+                      <path
+                        d="M0,3.875c0-1.104,0.896-2,2-2h20.75c1.104,0,2,0.896,2,2s-0.896,2-2,2H2C0.896,5.875,0,4.979,0,3.875z M22.75,10.375H2
+                        c-1.104,0-2,0.896-2,2c0,1.104,0.896,2,2,2h20.75c1.104,0,2-0.896,2-2C24.75,11.271,23.855,10.375,22.75,10.375z M22.75,18.875H2
+                        c-1.104,0-2,0.896-2,2s0.896,2,2,2h20.75c1.104,0,2-0.896,2-2S23.855,18.875,22.75,18.875z"
+                      />
+                    </g>
+                  </svg> 
+                </label>
+            <ul class="menu">
+                <li><a href="#episodes">EPISODIOS</a></li>
+                <li><a href="#us">NOSOTROS</a></li>
+                <li><a href="#interviews">ENTREVISTAS</a></li>
+                <li><a href="#topics">TÓPICOS</a></li>
+            </ul>
+        </nav>
+        <nav class="navMenuDescktop flex flexRow">
+            <ul class="menuDescktop flex flexRow">
+                <li><a href="#episodes">EPISODIOS</a></li>
+                <li><a href="#us">NOSOTROS</a></li>
+                <li><a href="#interviews">ENTREVISTAS</a></li>
+                <li><a href="#topics">TÓPICOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="welcome flex flexColumn">
+            <h1 class="titleWelcome">Hello <span class="strikethrough"> world</span> pale blue dot<span class="point">.</span></h1>
+            <p class="paragraphWelcome">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <p class="paragraphWelcomeDescktop">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <button type="button" class="buttons buttonWelcome" onclick="location.href='#us'">CONOCÉ MÁS</button>
+        </section>
+        <section class="episodes flex flexColumn" id="episodes">
+            <h1 class="titleEpisodes">Episodios</h1>
+            <div class="containerEpisodes flex flexRow">
+                <iframe src="" frameborder="0"></iframe>
+                <iframe src="" frameborder="0"></iframe>
+                <iframe src="" frameborder="0"></iframe>
+                <iframe src="" frameborder="0"></iframe>
+            </div>
+        </section>
+        <section class="us flex flexRow" id="us">
+            <img class="phoneUs" src="./images/phone.png" alt="Foto">
+            <div class="textUs flex flexColumn">
+                <h1 class="titleUs">De dónde venimos</h1>
+                <p class="paragraphUs">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+                <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </section>
+        <section class="interviews" id="interviews">
+            <h1 class="titleInterviews">Invitadas/os estelares</h1>
+            <div class="containerImages flex flexRow">
+                <img class="imageInterviews" src="./images/grace-hopper.png" alt="Grace Hopper">
+                <img class="imageInterviews" src="./images/Katie-Bouman.png" alt="Katie Bouman">
+                <img class="imageInterviews" src="./images/Margaret_Hamilton.png" alt="Margaret Hamilton">
+                <img class="imageInterviews" src="./images/An E.R.A.Univac 1103 computer in the 1950s.png" alt="Computer in the 1950s">
+                <img class="imageInterviews" src="./images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="Computer operators">
+                <img class="imageInterviews" src="./images/susan-kare.png" alt="Susan Kare">
+            </div>
+        </section>
+        <section class="topics" id="topics">
+            <h1 class="titleTopics">Algunos de nuestros temas</h1>
+            <div class="containerTopics flex flexRow">
+                <article class="boxTopics flex flexColumn">
+                    <img class="imagesTopics" src="./icons/icon1.svg" alt="Tópico 1">
+                    <h2>Trabajo remoto</h2>
+                </article>
+                <article class="boxTopics flex flexColumn">
+                    <img class="imagesTopics" src="./icons/icon2.svg" alt="Tópico 2">
+                    <h2>Repensando la programación</h2>
+                </article>
+                <article class="boxTopics flex flexColumn">
+                    <img class="imagesTopics" src="./icons/icon3.svg" alt="Tópico 3">
+                    <h2>Bases del código</h2>
+                </article>
+                <article class="boxTopics flex flexColumn">
+                    <img class="imagesTopics" src="./icons/icon4.svg" alt="Tópico 4">
+                    <h2>Seguridad informática</h2>
+                </article>
+            </div>            
+        </section>
+    </main>
+    <article class="aside flex flexColumn">
+        <h1 class="titleAside">¿Querés las últimas novedades?</h1>
+        <button type="button" class="buttons buttonAside" onclick="location.href='#episodes'">ESCUCHÁ LOS EPISODIOS</button>
+    </article>
+    <footer class="footer flex flexRow">
+        <p class="paragraphFooter">© 2019— Hello blue pale dot</p>
+        <div class="containerIcons flex">
+            <a class="icons" href="https://www.spotify.com/cl/home/">
+                <img class="icons" src="./icons/spotify.svg" alt="Icono spotify">
+                <img class="icons2" src="./icons/spotify2.svg" alt="Icono spotify">
+            </a>
+            <a class="icons" href="https://www.instagram.com/">
+                <img class="icons" src="./icons/instagram.svg" alt="Icono instagram">
+                <img class="icons2" src="./icons/instagram2.svg" alt="Icono instagram">
+            </a>
+            <a class="icons" href="https://twitter.com/">
+                <img class="icons" src="./icons/twitter.svg" alt="Icono twitter">
+                <img class="icons2" src="./icons/twitter2.svg" alt="Icono twitter">
+
+            </a>
+            <a class="icons" href="https://www.facebook.com/">
+                <img class="icons" src="./icons/004-facebook.svg" alt="Icono facebook">
+                <img class="icons2" src="./icons/facebook2.svg" alt="Icono facebook">
+            </a>
+            <a class="icons" href="https://web.telegram.org/">
+                <img class="icons" src="./icons/005-telegrama.svg" alt="Icono telegram">
+                <img class="icons2" src="./icons/telegrama2.svg" alt="Icono telegram">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
