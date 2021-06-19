@@ -66,11 +66,12 @@ p {
 }
 
 .flexColumn {
-    flex-flow: column wrap;
+    flex-direction: column;
 }
 
 .header {
     height: 44px;
+    width: 100vw;
     justify-content: space-between;
     align-items: center;
     padding-right: 19px;
@@ -134,19 +135,19 @@ p {
 
 @keyframes menuAnimation {
     0% {
-        left: 100%;
+        left: 100vw;
     }
     25% {
-        left: 75%;
+        left: 75vw;
     }
     50% {
-        left: 50%;
+        left: 50vw;
     }
     75% {
-        left: 25%;
+        left: 25vw;
     }
     100% {
-        left: 0%;
+        left: 0vw;
     }
 }
 
@@ -176,7 +177,7 @@ p {
 }
 
 .main .welcome .buttonWelcome {
-    width: 90%;
+    width: 90vw;
     margin: 36px 0px 24px 0px;
 }
 
@@ -244,7 +245,7 @@ p {
 
 .main .interviews .containerImages {
     margin-bottom: 48px;
-    width: 100%;
+    width: 100vw;
 }
 
 .main .interviews .containerImages .imageInterviews {
@@ -259,11 +260,6 @@ p {
 
 .main .topics .titleTopics{
     margin-bottom: 24px;
-}
-
-.main .topics .containerTopics {
-    width: 100vw;
-    justify-content: center;
 }
 
 .main .topics .containerTopics .boxTopics {
