@@ -231,11 +231,4 @@
         height: 28px;
         width: 18px;
     }
-    svg {
-        fill: #000000;
-
-    }
-    svg:hover {
-        fill: #00F3BB;
-    }
 }
