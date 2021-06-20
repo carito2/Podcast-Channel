@@ -119,17 +119,17 @@
     }
 
     .main .episodes {
-        height: 1042.6;
-        clip-path: polygon(0 12%, 100% 0, 100% 88%, 0 100%);
+        clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
         padding: 186px 100px 206.6px;
     }
 
     .main .episodes .titleEpisodes {
         margin-left: 100px;
+        padding: 0px;
     }
 
     .main .episodes .containerEpisodes {
-        height: 536px;
+        height: 376px;
         width: 86vw;
         margin: 26px 0px;
         padding: 0px;
@@ -139,7 +139,7 @@
     }
 
     .main .episodes .containerEpisodes iframe {
-        height: 232px;
+        height: 152px;
         width: 584px;
     }
 
@@ -163,7 +163,7 @@
     .main .us .textUs {
         height: 302px;
         width: 464px;
-        margin:0px 56px 0px 62.4px;
+        margin: 20.4px 56px 0px 62.4px;
     }
 
     .main .us .textUs .paragraphUs {
@@ -230,5 +230,12 @@
     .footer .containerIcons .icons {
         height: 28px;
         width: 18px;
+    }
+    svg {
+        fill: #000000;
+
+    }
+    svg:hover {
+        fill: #00F3BB;
     }
 }
