@@ -54,7 +54,6 @@
 
     .header .navMenuDescktop {
         display: block;
-        width: 482px;
         justify-content: space-between;
         align-items: center;
     }
@@ -88,7 +87,6 @@
     }
 
     .main .welcome {
-        height: 369px;
         align-items: flex-start;
         padding: 120px 200px 5px;
     }
@@ -129,8 +127,7 @@
     }
 
     .main .episodes .containerEpisodes {
-        height: 376px;
-        width: 86vw;
+        width: 100%;
         margin: 26px 0px;
         padding: 0px;
         padding-top: 0px;
@@ -139,9 +136,12 @@
     }
 
     .main .episodes .containerEpisodes iframe {
-        height: 152px;
-        width: 584px;
+        width: 44.7%;
     }
+
+    .main .episodes .containerEpisodes iframe:nth-child(odd) {
+        margin-right: 72px;
+    }    
 
     .main .episodes .containerEpisodes iframe:nth-child(1), .main .episodes .containerEpisodes iframe:nth-child(2) {
         margin-bottom: 60px;
