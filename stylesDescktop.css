@@ -40,7 +40,7 @@
 
     .header {
         height: 80px;
-        padding: 0px 100px;
+        padding: 0 6.9%;
     }
 
     .header .logo {
@@ -88,11 +88,11 @@
 
     .main .welcome {
         align-items: flex-start;
-        padding: 120px 200px 5px;
+        padding: 120px 14% 5px;
     }
 
     .main .welcome .titleWelcome {
-        height: 84px;
+        line-height: 82px;
         padding: 10px 0px;
         font-size: 4.6rem;
     }
@@ -108,7 +108,6 @@
     .main .welcome .paragraphWelcomeDescktop {
         display: block;
         width: 628px;
-        height: 48px;
     }
 
     .main .welcome .buttonWelcome {
@@ -118,7 +117,7 @@
 
     .main .episodes {
         clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
-        padding: 186px 100px 206.6px;
+        padding: 186px 6.9% 206.6px;
     }
 
     .main .episodes .titleEpisodes {
@@ -156,13 +155,12 @@
 
     .main .us .phoneUs {
         height: 660px;
-        width: 457.6px;
         margin-top: -160px;
     }
 
     .main .us .textUs {
         height: 302px;
-        width: 464px;
+        width: 32%;
         margin: 20.4px 56px 0px 62.4px;
     }
 
@@ -175,7 +173,7 @@
     }
 
     .main .interviews .titleInterviews {
-        margin: 0px 0px 36px 200px;
+        margin: 0px 0px 36px 14%;
     }
 
     .main .interviews .containerImages {
@@ -189,7 +187,7 @@
 
     .main .topics {
         height: 362px;
-        padding: 0px 200px 36px;
+        padding: 0px 14% 36px;
     }
 
     .main .topics .containerTopics .boxTopics {
@@ -224,7 +222,7 @@
     .footer {
         height: 95px;
         justify-content: space-between;
-        padding: 0px 100px;
+        padding: 0px 6.9%;
     }
 
     .footer .containerIcons .icons {
