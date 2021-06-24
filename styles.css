@@ -227,22 +227,20 @@ p {
 }
 
 .main .us {
-    height: 850.5px;
     padding-bottom: 27px;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-}
-
-.main .us .phoneUs {
-    height: 519px;
-    width: 360px;
-    margin-top: -100px;
+    position: relative;
+    top: -100px;
     z-index: 1;
 }
 
+.main .us .phoneUs {
+    width: 360px;
+}
+
 .main .us .textUs {
-    height: 346px;
-    width: 288px;
+    width: 90%;
     margin: 27px 16px;
 }
 
@@ -255,7 +253,7 @@ p {
 }
 
 .main .interviews {
-    height: 1603px;
+    margin-top: -100px;
 }
 
 .main .interviews .titleInterviews {
@@ -274,12 +272,15 @@ p {
 }
 
 .main .topics {
-    height: 970px;
     padding: 0px 16px 42px 16px;
 }
 
 .main .topics .titleTopics{
     margin-bottom: 24px;
+}
+
+.main .topics .containerTopics {
+    justify-content: center;
 }
 
 .main .topics .containerTopics .boxTopics {
@@ -327,6 +328,7 @@ p {
 
 .footer {
     height: 121px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 24px 45px;

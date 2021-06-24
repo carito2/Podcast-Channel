@@ -135,11 +135,11 @@
     }
 
     .main .episodes .containerEpisodes iframe {
-        width: 44.7%;
+        width: 47.1%;
     }
 
     .main .episodes .containerEpisodes iframe:nth-child(odd) {
-        margin-right: 72px;
+        margin-right: 5.8%;
     }    
 
     .main .episodes .containerEpisodes iframe:nth-child(1), .main .episodes .containerEpisodes iframe:nth-child(2) {
@@ -149,13 +149,14 @@
     .main .us {
         height: 555.4px;
         padding: 0px;
+        flex-direction: row;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .main .us .phoneUs {
         height: 660px;
-        margin-top: -160px;
+        width: 31.8%;
     }
 
     .main .us .textUs {
@@ -170,6 +171,7 @@
 
     .main .interviews {
         height: 890px;
+        margin-top: 0px;
     }
 
     .main .interviews .titleInterviews {
@@ -221,6 +223,7 @@
 
     .footer {
         height: 95px;
+        flex-direction: row;
         justify-content: space-between;
         padding: 0px 6.9%;
     }
