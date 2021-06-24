@@ -7,6 +7,7 @@
 :root {
     font-size: 14px;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -134,12 +135,11 @@ p {
 .header .navMenuMobile .menu {
     position: absolute;
     top: 44px;
-    left: 0px;
     background-color: #0000EC;
     padding: 16px 0px 0px;
     height: 224px;
     width: 100vw;
-    transform: translateX(150%);
+    transform: translateX(50%);
     transition: transform 0.3s ease;
 }
 
@@ -149,6 +149,7 @@ p {
 
 #menu:checked ~ .menu{
     transform: translateX(0%);
+    left: 0px;
 }
 
 #menu:checked ~ label .menu1 {
