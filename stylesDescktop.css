@@ -187,7 +187,6 @@
     }
 
     .main .topics {
-        height: 362px;
         padding: 0px 14% 36px;
     }
 
@@ -212,6 +211,7 @@
 
     .aside h1.titleAside {
         width: 100%;
+        line-height: 62px;
     }
 
     .aside .buttonAside {
