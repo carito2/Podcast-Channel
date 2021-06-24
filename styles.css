@@ -148,10 +148,10 @@ p {
     padding: 16px 0px 0px;
     height: 224px;
     width: 100vw;
-    animation: menuAnimation 0.3s ;
-    -moz-animation: menuAnimation 0.3s;
-    -webkit-animation: menuAnimation 0.3s;
-    -o-animation: menuAnimation 0.3s;
+    animation: menuAnimation 0.3s ease;
+    -moz-animation: menuAnimation 0.3s ease;
+    -webkit-animation: menuAnimation 0.3s ease;
+    -o-animation: menuAnimation 0.3s ease;
 }
 
 @keyframes menuAnimation {
