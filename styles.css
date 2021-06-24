@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 :root {
     font-size: 14px;
@@ -131,7 +132,15 @@ p {
 }
 
 .header .navMenuMobile .menu {
-    display: none;
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    background-color: #0000EC;
+    padding: 16px 0px 0px;
+    height: 224px;
+    width: 100vw;
+    transform: translateX(150%);
+    transition: transform 0.3s ease;
 }
 
 .header .navMenuDescktop {
@@ -139,15 +148,7 @@ p {
 }
 
 #menu:checked ~ .menu{
-    display: block;
-    background-color: #0000EC;
-    padding: 16px 0px 0px;
-    height: 224px;
-    width: 100vw;
-    position: absolute;
-    top: 44px;
-    left: 0px;
-    animation: menuAnimation 0.3s 1;
+    transform: translateX(0%);
 }
 
 #menu:checked ~ label .menu1 {
@@ -160,24 +161,6 @@ p {
 
 #menu:checked ~ label .menu3 {
     transform: rotate(-45deg);
-}
-
-@keyframes menuAnimation {
-    0% {
-        left: 100vw;
-    }
-    25% {
-        left: 75vw;
-    }
-    50% {
-        left: 50vw;
-    }
-    75% {
-        left: 25vw;
-    }
-    100% {
-        left: 0vw;
-    }
 }
 
 .main .welcome {
