@@ -1,233 +1,235 @@
-@media screen and (min-width:900px) {
-    h1 {
-        font-family: "IBM Plex Sans", sans-serif;
-        font-size: 3.43rem;
-        font-weight: 400;
-        color: #060A24;
-        letter-spacing: 0;
-        line-height: 62px;
-    }
-    h2 {
-        font-family: "IBM Plex Sans", sans-serif;
-        font-size: 1.7rem;
-        font-weight: 600;
-        color: #060A24;
-        letter-spacing: 0;
-        text-align: center;
-    }
-    
-    p {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 1.14rem;
-        font-weight: 400;
-        color: #060A24;
-        letter-spacing: 0;
-        line-height: 24px;
-    }
+@media screen and (min-width: 900px) {
+  h1 {
+    color: #060a24;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 3.43rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 62px;
+  }
 
-    .buttons {
-        background-color: #00F3BB;
-        border: 0px;
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 1.3rem;
-        font-weight: 500;
-        color: #060A24;
-        letter-spacing: 0;
-        text-align: center;
-        line-height: 24px;
-        height: 56px;
-    }
+  h2 {
+    color: #060a24;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-align: center;
+  }
 
-    .header {
-        height: 80px;
-        padding: 0 6.9%;
-    }
+  p {
+    color: #060a24;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1.14rem;
+    font-weight: 400; 
+    letter-spacing: 0;
+    line-height: 24px;
+  }
 
-    .header .logo {
-        height: 36px;
-        width: 36px;
-    }
+  .buttons {
+    background-color: #00f3bb;
+    border: 0px;
+    color: #060a24;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1.3rem;
+    font-weight: 500;
+    height: 56px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+  }
 
-    .header .navMenuMobile {
-        display: none;
-    }
+  .header {
+    height: 80px;
+    padding: 0 6.9%;
+  }
 
-    .header .navMenuDescktop {
-        display: block;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .header .logo {
+    height: 36px;
+    width: 36px;
+  }
 
-    .header .navMenuDescktop .menuDescktop li {
-        list-style-type: none;
-        margin-right: 48px;
-    }
+  .header .navMenuMobile {
+    display: none;
+  }
 
-    .header .navMenuDescktop .menuDescktop li:last-child {
-        margin-right: 0px;
-    }
+  .header .navMenuDescktop {
+    align-items: center;
+    display: block;
+    justify-content: space-between;   
+  }
 
-    .header .navMenuDescktop .menuDescktop a {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 1.14rem;
-        color: #060A24;
-        letter-spacing: 0;
-        line-height: 28px;
-        text-decoration: none;
-    }
+  .header .navMenuDescktop .menuDescktop li {
+    list-style-type: none;
+    margin-right: 48px;
+  }
 
-    .header .navMenuDescktop .menuDescktop a:hover {
-        color: #00F3BB;
-        text-decoration: line-through;
-    }
+  .header .navMenuDescktop .menuDescktop li:last-child {
+    margin-right: 0px;
+  }
 
-    .header .navMenuDescktop .menuDescktop a:active {
-        color: rgba(6,10,36,0.56);
-        text-decoration: line-through;
-    }
+  .header .navMenuDescktop .menuDescktop a {
+    color: #060a24;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1.14rem; 
+    letter-spacing: 0;
+    line-height: 28px;
+    text-decoration: none;
+  }
 
-    .main .welcome {
-        align-items: flex-start;
-        padding: 120px 14% 5px;
-    }
+  .header .navMenuDescktop .menuDescktop a:hover {
+    color: #00f3bb;
+    text-decoration: line-through;
+  }
 
-    .main .welcome .titleWelcome {
-        line-height: 82px;
-        padding: 10px 0px;
-        font-size: 4.6rem;
-    }
+  .header .navMenuDescktop .menuDescktop a:active {
+    color: rgba(6, 10, 36, 0.56);
+    text-decoration: line-through;
+  }
 
-    .main .welcome .titleWelcome span.point {
-        color: #0000EC;
-    }
+  .main .welcome {
+    align-items: flex-start;
+    padding: 120px 14% 5px;
+  }
 
-    .main .welcome .paragraphWelcome {
-        display: none;
-    }
+  .main .welcome .titleWelcome {
+    font-size: 4.6rem;
+    line-height: 82px;
+    padding: 10px 0px;   
+  }
 
-    .main .welcome .paragraphWelcomeDescktop {
-        display: block;
-        width: 628px;
-    }
+  .main .welcome .titleWelcome span.point {
+    color: #0000ec;
+  }
 
-    .main .welcome .buttonWelcome {
-        width: 226px;
-        margin: 56px 0px 0px;
-    }
+  .main .welcome .paragraphWelcome {
+    display: none;
+  }
 
-    .main .episodes {
-        clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
-        padding: 186px 6.9% 206.6px;
-    }
+  .main .welcome .paragraphWelcomeDescktop {
+    display: block;
+    width: 628px;
+  }
 
-    .main .episodes .titleEpisodes {
-        margin-left: 100px;
-        padding: 0px;
-    }
+  .main .welcome .buttonWelcome {
+    margin: 56px 0px 0px;
+    width: 226px;   
+  }
 
-    .main .episodes .containerEpisodes {
-        width: 100%;
-        margin: 26px 0px;
-        padding: 0px;
-        padding-top: 0px;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
+  .main .episodes {
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    padding: 186px 6.9% 206.6px;
+  }
 
-    .main .episodes .containerEpisodes iframe {
-        width: 47.1%;
-    }
+  .main .episodes .titleEpisodes {
+    margin-left: 100px;
+    padding: 0px;
+  }
 
-    .main .episodes .containerEpisodes iframe:nth-child(odd) {
-        margin-right: 5.8%;
-    }    
+  .main .episodes .containerEpisodes {
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 26px 0px;
+    padding: 0px;
+    padding-top: 0px;
+    width: 100%;
+  }
 
-    .main .episodes .containerEpisodes iframe:nth-child(1), .main .episodes .containerEpisodes iframe:nth-child(2) {
-        margin-bottom: 60px;
-    }
+  .main .episodes .containerEpisodes iframe {
+    width: 47.1%;
+  }
 
-    .main .us {
-        padding: 0px;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
+  .main .episodes .containerEpisodes iframe:nth-child(odd) {
+    margin-right: 5.8%;
+  }
 
-    .main .us .phoneUs {
-        height: 660px;
-        width: 31.8%;
-    }
+  .main .episodes .containerEpisodes iframe:nth-child(1),
+  .main .episodes .containerEpisodes iframe:nth-child(2) {
+    margin-bottom: 60px;
+  }
 
-    .main .us .textUs {
-        width: 32%;
-        margin: 20.4px 56px 0px 62.4px;
-    }
+  .main .us {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+  }
 
-    .main .us .textUs .paragraphUs {
-        margin: 24px 0px 22px ;
-    }
+  .main .us .phoneUs {
+    height: 660px;
+    width: 31.8%;
+  }
 
-    .main .interviews {
-        height: 890px;
-        margin-top: 0px;
-    }
+  .main .us .textUs {
+    margin: 20.4px 56px 0px 62.4px;
+    width: 32%;
+  }
 
-    .main .interviews .titleInterviews {
-        margin: 0px 0px 36px 14%;
-    }
+  .main .us .textUs .paragraphUs {
+    margin: 24px 0px 22px;
+  }
 
-    .main .interviews .containerImages {
-        margin-bottom: 64px;
-    }
+  .main .interviews {
+    height: 890px;
+    margin-top: 0px;
+  }
 
-    .main .interviews .containerImages .imageInterviews {
-        width: 33.33vw;
-        height: 364px;
-    }
+  .main .interviews .titleInterviews {
+    margin: 0px 0px 36px 14%;
+  }
 
-    .main .topics {
-        padding: 0px 14% 36px;
-    }
+  .main .interviews .containerImages {
+    margin-bottom: 64px;
+  }
 
-    .main .topics .containerTopics .boxTopics {
-        width: 25%;
-        margin: 56px 0px 34px;
-        justify-content: flex-start;
-    }
+  .main .interviews .containerImages .imageInterviews {   
+    height: 364px;
+    width: 33.33vw;
+  }
 
-    .main .topics .containerTopics .boxTopics .imagesTopics {
-        width: 104px;
-        height: 104px;
-        margin-bottom: 16px;
-    }
+  .main .topics {
+    padding: 0px 14% 36px;
+  }
 
-    .aside {
-        height: 518px;
-        clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-        padding: 213px 0px 151px;
-        justify-content: space-between;
-    }
+  .main .topics .containerTopics .boxTopics {
+    justify-content: flex-start;
+    margin: 56px 0px 34px;
+    width: 25%;
+  }
 
-    .aside h1.titleAside {
-        width: 100%;
-        line-height: 62px;
-    }
+  .main .topics .containerTopics .boxTopics .imagesTopics {   
+    height: 104px;
+    margin-bottom: 16px;
+    width: 104px;
+  }
 
-    .aside .buttonAside {
-        height: 56px;
-        width: 345px;
-        margin: 36px 0px 0px;
-    }
+  .aside {
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    height: 518px;
+    justify-content: space-between;
+    padding: 213px 0px 151px;    
+  }
 
-    .footer {
-        height: 95px;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0px 6.9%;
-    }
+  .aside h1.titleAside {
+    line-height: 62px;
+    width: 100%;
+  }
 
-    .footer .containerIcons .icons {
-        height: 28px;
-        width: 18px;
-    }
+  .aside .buttonAside {
+    height: 56px;   
+    margin: 36px 0px 0px;
+    width: 345px;
+  }
+
+  .footer {
+    flex-direction: row;
+    height: 95px;
+    justify-content: space-between;
+    padding: 0px 6.9%;
+  }
+
+  .footer .containerIcons .icons {
+    height: 28px;
+    width: 18px;
+  }
 }
